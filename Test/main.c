@@ -61,7 +61,7 @@ int main(int argc, char *argv[]) {
 		case 3:
 			printf("Please input n: \n");
 			scanf("%d", &n);
-			if (n == 0)
+			if (checkEven(n))
 				printf("%d is Even\n", n);
 			else
 				printf("%d is Odd\n", n);
@@ -135,12 +135,37 @@ int checkEven(int number) {
 }
 
 int checkMul(int n) {
-	int multi = 1;
+	int multi = 0;
 	while (n > 0) {
 		int rever = n % 10;
-		multi *= rever;
+		multi += (n % 10);
 		n /= 10;
 	}
 	return multi;
 }
-// object, array, pointer tham chieu tro den địa chỉ của nó
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

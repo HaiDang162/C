@@ -24,8 +24,11 @@ int main(int argc, char *argv[]) {
 	age = 2020 - yob;
 	if (age >= 18)
 		printf("Khong say khong ve. Say thi sao ve. Let's chill\n");
-	else
+	else if (age >= 20)
 		printf("Hey rich kid. Go home now!!!\n");
+	else 
+		printf("None");
+	
 		
 	return 0;
 }
