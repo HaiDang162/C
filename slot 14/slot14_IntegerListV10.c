@@ -7,16 +7,16 @@ int main(int argc, char *argv[]) {
 	int n;
 	int acc = 0;	
 	printf("This program will show the sum of 100 first intergers (1..100)\n");
-	printf("Please input n > 1: ");
-	scanf("%d", &n);
-	if (n <= 1)
-		printf("Do u know how to input an integer > 1 ?\n");
-	
-	else
-	{
-		for (int i = 1; i <= n; i++)
-			acc += i;	
-			printf("The sum is %d\n", acc);
+	do {
+		printf("Please input n > 1: \n");
+		scanf("%d", &n);
+		if (n <= 1) {
+			printf("Do u know how to input an integer > 1 ?\n");	
+		}
+	} while (n <= 1);
+	for (int i = 1; i <= n; i++) {
+		acc += i;	
 	}
+	printf("The sum is %d\n", acc);			
 	return 0;
 }

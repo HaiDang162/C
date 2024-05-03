@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
 	int sum = 0;
-	int acc = 0;
+//	int acc = 0;
 	printf("This program will show the sum of 100 first intergers (1..100)\n");
 	for (int i = 1; i <= 100; i++){
 		sum += i;
