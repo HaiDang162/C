@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-const float PI = 3.14;
+float PI = 3.14;
+const float e = 9.8;
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 void printMenu();
@@ -45,6 +46,7 @@ void printMenu() {
 	printf("5. Quit                                      \n"); 
 }
 void computeDiskArea() {
+	PI = 3.1415;
 	float radius;
 	printf("You choose to compute the disk area\n");
 	printf("Please input a radius (> 0): \n");

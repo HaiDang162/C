@@ -6,7 +6,7 @@ int getFactorialV4(int n);
 int getFactorialVWrong(int n);
 int main(int argc, char *argv[]) {
 //	printf("0! = %d\n", getFactorialV4(0));
-	getFactorialVWrong(5);
+	printf("%d", getFactorialV4(5));
 	return 0;
 }
 
@@ -15,6 +15,7 @@ int getFactorialVWrong(int n) {
 	if (n == 0 || n == 1)
 		acc = 1;
 		printf("CPU is still here, of n >= 2!!!\n");
+		return 1;
 	for (int i = 2; i <= n; i++)
 		acc *= i;	
 //	return acc; do ham ko return thi phai in ra !!!
@@ -22,13 +23,11 @@ int getFactorialVWrong(int n) {
 }
 int getFactorialV4(int n) {
 	int acc = 1;
-	if (n == 0 || n == 1)
+	if (n == 0 || n == 1) {
 		return 1;
-	else { // tam thoi chua chan n < 0
-			for (int i = 2; i <= n; i++)
-				acc *= i;
-			return acc;
 	}
-	printf("Cho anh gan em them chut nua\n");
-//	return acc; do ham ko return thi phai in ra !!!
+	for (int i = 2; i <= n; i++) {
+		acc = acc * i;
+	}
+	return acc;
 }

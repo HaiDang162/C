@@ -1,6 +1,6 @@
 [Project]
-filename=MathHelper.dev
-name=MathHelper
+FileName=GradeV3.dev
+Name=GradeV3
 Type=1
 Ver=2
 ObjFiles=
@@ -28,7 +28,7 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;12;0;0;0
+CompilerSettings=0000000000000000000000000
 UnitCount=1
 
 [VersionInfo]
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=slot20_MathHelper.c
+FileName=slot 23_GradeV3.c
 CompileCpp=0
 Folder=
 Compile=1

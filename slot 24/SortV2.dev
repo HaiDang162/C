@@ -1,6 +1,6 @@
 [Project]
-filename=MathHelper.dev
-name=MathHelper
+filename=SortV2.dev
+name=SortV2
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=slot20_MathHelper.c
+FileName=slot 24_SortV2.c
 CompileCpp=0
 Folder=
 Compile=1
